@@ -8,6 +8,7 @@ object WeatherForecast {
   val WeatherFc = http("GET /WeatherForecast")
     .get("/WeatherForecast")
     .check(status is 200)
- 
+  
 
       }
+

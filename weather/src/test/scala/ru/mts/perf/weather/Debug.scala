@@ -10,7 +10,7 @@ class Debug extends Simulation {
 
   // proxy is required on localhost:8888
 
-  setUp(CitiesScenario.scn.inject(atOnceUsers(20))).protocols(httpProtocol).maxDuration(testDuration)
-  //setUp(ForecastScenario.scn.inject(atOnceUsers(1))).protocols(httpProtocol).maxDuration(testDuration)
+  //setUp(CitiesScenario.scn.inject(atOnceUsers(20))).protocols(httpProtocol).maxDuration(testDuration)
+  setUp(ForecastScenario.scn.inject(atOnceUsers(1))).protocols(httpProtocol).maxDuration(testDuration)
 
 }

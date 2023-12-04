@@ -2,71 +2,71 @@
     "version": "1.4.0",
     "project": {
         "name": "root",
-        "directory": "/Users/Nick/Downloads/HT_gatling/weather",
-        "workspaceDir": "/Users/Nick/Downloads/HT_gatling/weather",
+        "directory": "C:\\GitHub\\mts_lt-1\\weather",
+        "workspaceDir": "C:\\GitHub\\mts_lt-1\\weather",
         "sources": [
-            "/Users/Nick/Downloads/HT_gatling/weather/src/main/scala",
-            "/Users/Nick/Downloads/HT_gatling/weather/src/main/scala-2.13",
-            "/Users/Nick/Downloads/HT_gatling/weather/src/main/scala-2",
-            "/Users/Nick/Downloads/HT_gatling/weather/src/main/java",
-            "/Users/Nick/Downloads/HT_gatling/weather/target/scala-2.13/src_managed/main"
+            "C:\\GitHub\\mts_lt-1\\weather\\src\\main\\scala",
+            "C:\\GitHub\\mts_lt-1\\weather\\src\\main\\scala-2.13",
+            "C:\\GitHub\\mts_lt-1\\weather\\src\\main\\scala-2",
+            "C:\\GitHub\\mts_lt-1\\weather\\src\\main\\java",
+            "C:\\GitHub\\mts_lt-1\\weather\\target\\scala-2.13\\src_managed\\main"
         ],
         "dependencies": [
             
         ],
         "classpath": [
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/de/siegmar/logback-gelf/4.0.2/logback-gelf-4.0.2.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ru/tinkoff/gatling-picatinny_2.13/0.11.2/gatling-picatinny_2.13-0.11.2.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/janino/janino/3.1.8/janino-3.1.8.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native_2.13/4.0.5/json4s-native_2.13-4.0.5.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-jackson_2.13/4.0.5/json4s-jackson_2.13-4.0.5.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig_2.13/0.17.1/pureconfig_2.13-0.17.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-yaml_2.13/0.17.1/pureconfig-yaml_2.13-0.17.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/jwt-scala/jwt-core_2.13/9.1.0/jwt-core_2.13-9.1.0.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/razem/scala-influxdb-client_2.13/0.6.3/scala-influxdb-client_2.13-0.6.3.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.14.1/circe-core_2.13-0.14.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_2.13/0.14.1/circe-generic_2.13-0.14.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_2.13/0.14.1/circe-parser_2.13-0.14.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.1.8/commons-compiler-3.1.8.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.9/logback-core-1.2.9.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.13/4.0.5/json4s-core_2.13-4.0.5.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native-core_2.13/4.0.5/json4s-native-core_2.13-4.0.5.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-jackson-core_2.13/4.0.5/json4s-jackson-core_2.13-4.0.5.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-core_2.13/0.17.1/pureconfig-core_2.13-0.17.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic_2.13/0.17.1/pureconfig-generic_2.13-0.17.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client/2.10.4/async-http-client-2.10.4.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.13/1.3.5/spray-json_2.13-1.3.5.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.14.1/circe-numbers_2.13-0.14.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.7/shapeless_2.13-2.3.7.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_2.13/0.14.1/circe-jawn_2.13-0.14.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.13/4.0.5/json4s-ast_2.13-4.0.5.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.13/4.0.5/json4s-scalap_2.13-4.0.5.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.6.1/jackson-databind-2.12.6.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic-base_2.13/0.17.1/pureconfig-generic-base_2.13-0.17.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client-netty-utils/2.10.4/async-http-client-netty-utils-2.10.4.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.3/netty-reactive-streams-2.0.3.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.6.1/cats-kernel_2.13-2.6.1.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.1.2/jawn-parser_2.13-1.1.2.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.6/jackson-annotations-2.12.6.jar",
-            "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.6/jackson-core-2.12.6.jar"
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\de\\siegmar\\logback-gelf\\4.0.2\\logback-gelf-4.0.2.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ru\\tinkoff\\gatling-picatinny_2.13\\0.11.2\\gatling-picatinny_2.13-0.11.2.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\janino\\janino\\3.1.8\\janino-3.1.8.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-classic\\1.2.9\\logback-classic-1.2.9.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-native_2.13\\4.0.5\\json4s-native_2.13-4.0.5.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-jackson_2.13\\4.0.5\\json4s-jackson_2.13-4.0.5.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig_2.13\\0.17.1\\pureconfig_2.13-0.17.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig-yaml_2.13\\0.17.1\\pureconfig-yaml_2.13-0.17.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\mifmif\\generex\\1.0.2\\generex-1.0.2.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\jwt-scala\\jwt-core_2.13\\9.1.0\\jwt-core_2.13-9.1.0.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\razem\\scala-influxdb-client_2.13\\0.6.3\\scala-influxdb-client_2.13-0.6.3.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-core_2.13\\0.14.1\\circe-core_2.13-0.14.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-generic_2.13\\0.14.1\\circe-generic_2.13-0.14.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-parser_2.13\\0.14.1\\circe-parser_2.13-0.14.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\janino\\commons-compiler\\3.1.8\\commons-compiler-3.1.8.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-core\\1.2.9\\logback-core-1.2.9.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.32\\slf4j-api-1.7.32.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-core_2.13\\4.0.5\\json4s-core_2.13-4.0.5.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-native-core_2.13\\4.0.5\\json4s-native-core_2.13-4.0.5.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-jackson-core_2.13\\4.0.5\\json4s-jackson-core_2.13-4.0.5.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig-core_2.13\\0.17.1\\pureconfig-core_2.13-0.17.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig-generic_2.13\\0.17.1\\pureconfig-generic_2.13-0.17.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\yaml\\snakeyaml\\1.29\\snakeyaml-1.29.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dk\\brics\\automaton\\automaton\\1.11-8\\automaton-1.11-8.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\asynchttpclient\\async-http-client\\2.10.4\\async-http-client-2.10.4.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\spray\\spray-json_2.13\\1.3.5\\spray-json_2.13-1.3.5.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-numbers_2.13\\0.14.1\\circe-numbers_2.13-0.14.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.13\\2.6.1\\cats-core_2.13-2.6.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\chuusai\\shapeless_2.13\\2.3.7\\shapeless_2.13-2.3.7.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-jawn_2.13\\0.14.1\\circe-jawn_2.13-0.14.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-ast_2.13\\4.0.5\\json4s-ast_2.13-4.0.5.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-scalap_2.13\\4.0.5\\json4s-scalap_2.13-4.0.5.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.12.6.1\\jackson-databind-2.12.6.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.1\\config-1.4.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig-generic-base_2.13\\0.17.1\\pureconfig-generic-base_2.13-0.17.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\asynchttpclient\\async-http-client-netty-utils\\2.10.4\\async-http-client-netty-utils-2.10.4.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.2\\reactive-streams-1.0.2.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\netty\\netty-reactive-streams\\2.0.3\\netty-reactive-streams-2.0.3.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\sun\\activation\\javax.activation\\1.2.0\\javax.activation-1.2.0.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.13\\2.6.1\\cats-kernel_2.13-2.6.1.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\simulacrum-scalafix-annotations_2.13\\0.5.4\\simulacrum-scalafix-annotations_2.13-0.5.4.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\jawn-parser_2.13\\1.1.2\\jawn-parser_2.13-1.1.2.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.12.6\\jackson-annotations-2.12.6.jar",
+            "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.12.6\\jackson-core-2.12.6.jar"
         ],
-        "out": "/Users/Nick/Downloads/HT_gatling/weather/.bloop/root",
-        "classesDir": "/Users/Nick/Downloads/HT_gatling/weather/.bloop/root/scala-2.13/classes",
+        "out": "C:\\GitHub\\mts_lt-1\\weather\\.bloop\\root",
+        "classesDir": "C:\\GitHub\\mts_lt-1\\weather\\.bloop\\root\\scala-2.13\\classes",
         "resources": [
-            "/Users/Nick/Downloads/HT_gatling/weather/src/main/resources",
-            "/Users/Nick/Downloads/HT_gatling/weather/target/scala-2.13/resource_managed/main"
+            "C:\\GitHub\\mts_lt-1\\weather\\src\\main\\resources",
+            "C:\\GitHub\\mts_lt-1\\weather\\target\\scala-2.13\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -85,11 +85,11 @@
                 "-language:postfixOps"
             ],
             "jars": [
-                "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar",
-                "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar",
-                "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar",
-                "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar",
-                "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
+                "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8.jar",
+                "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.8\\scala-compiler-2.13.8.jar",
+                "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.8\\scala-reflect-2.13.8.jar",
+                "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.21.0\\jline-3.21.0.jar",
+                "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.9.0\\jna-5.9.0.jar"
             ],
             "setup": {
                 "order": "mixed",
@@ -152,9 +152,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home",
+                "home": "C:\\Program Files\\Java\\jre1.8.0_361",
                 "options": [
-                    "-Duser.dir=/Users/Nick/Downloads/HT_gatling/weather"
+                    "-Duser.dir=C:\\GitHub\\mts_lt-1\\weather"
                 ]
             },
             "mainClass": [
@@ -171,12 +171,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8-sources.jar"
                         }
                     ]
                 },
@@ -188,12 +188,12 @@
                     "artifacts": [
                         {
                             "name": "logback-gelf",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/de/siegmar/logback-gelf/4.0.2/logback-gelf-4.0.2.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\de\\siegmar\\logback-gelf\\4.0.2\\logback-gelf-4.0.2.jar"
                         },
                         {
                             "name": "logback-gelf",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/de/siegmar/logback-gelf/4.0.2/logback-gelf-4.0.2-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\de\\siegmar\\logback-gelf\\4.0.2\\logback-gelf-4.0.2-sources.jar"
                         }
                     ]
                 },
@@ -205,12 +205,12 @@
                     "artifacts": [
                         {
                             "name": "gatling-picatinny_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ru/tinkoff/gatling-picatinny_2.13/0.11.2/gatling-picatinny_2.13-0.11.2.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ru\\tinkoff\\gatling-picatinny_2.13\\0.11.2\\gatling-picatinny_2.13-0.11.2.jar"
                         },
                         {
                             "name": "gatling-picatinny_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ru/tinkoff/gatling-picatinny_2.13/0.11.2/gatling-picatinny_2.13-0.11.2-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ru\\tinkoff\\gatling-picatinny_2.13\\0.11.2\\gatling-picatinny_2.13-0.11.2-sources.jar"
                         }
                     ]
                 },
@@ -222,12 +222,12 @@
                     "artifacts": [
                         {
                             "name": "janino",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/janino/janino/3.1.8/janino-3.1.8.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\janino\\janino\\3.1.8\\janino-3.1.8.jar"
                         },
                         {
                             "name": "janino",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/janino/janino/3.1.8/janino-3.1.8-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\janino\\janino\\3.1.8\\janino-3.1.8-sources.jar"
                         }
                     ]
                 },
@@ -239,12 +239,12 @@
                     "artifacts": [
                         {
                             "name": "logback-classic",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-classic\\1.2.9\\logback-classic-1.2.9.jar"
                         },
                         {
                             "name": "logback-classic",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-classic\\1.2.9\\logback-classic-1.2.9-sources.jar"
                         }
                     ]
                 },
@@ -256,12 +256,12 @@
                     "artifacts": [
                         {
                             "name": "json4s-native_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native_2.13/4.0.5/json4s-native_2.13-4.0.5.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-native_2.13\\4.0.5\\json4s-native_2.13-4.0.5.jar"
                         },
                         {
                             "name": "json4s-native_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native_2.13/4.0.5/json4s-native_2.13-4.0.5-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-native_2.13\\4.0.5\\json4s-native_2.13-4.0.5-sources.jar"
                         }
                     ]
                 },
@@ -273,12 +273,12 @@
                     "artifacts": [
                         {
                             "name": "json4s-jackson_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-jackson_2.13/4.0.5/json4s-jackson_2.13-4.0.5.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-jackson_2.13\\4.0.5\\json4s-jackson_2.13-4.0.5.jar"
                         },
                         {
                             "name": "json4s-jackson_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-jackson_2.13/4.0.5/json4s-jackson_2.13-4.0.5-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-jackson_2.13\\4.0.5\\json4s-jackson_2.13-4.0.5-sources.jar"
                         }
                     ]
                 },
@@ -290,12 +290,12 @@
                     "artifacts": [
                         {
                             "name": "pureconfig_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig_2.13/0.17.1/pureconfig_2.13-0.17.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig_2.13\\0.17.1\\pureconfig_2.13-0.17.1.jar"
                         },
                         {
                             "name": "pureconfig_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig_2.13/0.17.1/pureconfig_2.13-0.17.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig_2.13\\0.17.1\\pureconfig_2.13-0.17.1-sources.jar"
                         }
                     ]
                 },
@@ -307,12 +307,12 @@
                     "artifacts": [
                         {
                             "name": "pureconfig-yaml_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-yaml_2.13/0.17.1/pureconfig-yaml_2.13-0.17.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig-yaml_2.13\\0.17.1\\pureconfig-yaml_2.13-0.17.1.jar"
                         },
                         {
                             "name": "pureconfig-yaml_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-yaml_2.13/0.17.1/pureconfig-yaml_2.13-0.17.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig-yaml_2.13\\0.17.1\\pureconfig-yaml_2.13-0.17.1-sources.jar"
                         }
                     ]
                 },
@@ -324,12 +324,12 @@
                     "artifacts": [
                         {
                             "name": "generex",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\mifmif\\generex\\1.0.2\\generex-1.0.2.jar"
                         },
                         {
                             "name": "generex",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\mifmif\\generex\\1.0.2\\generex-1.0.2-sources.jar"
                         }
                     ]
                 },
@@ -341,12 +341,12 @@
                     "artifacts": [
                         {
                             "name": "jwt-core_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/jwt-scala/jwt-core_2.13/9.1.0/jwt-core_2.13-9.1.0.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\jwt-scala\\jwt-core_2.13\\9.1.0\\jwt-core_2.13-9.1.0.jar"
                         },
                         {
                             "name": "jwt-core_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/jwt-scala/jwt-core_2.13/9.1.0/jwt-core_2.13-9.1.0-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\jwt-scala\\jwt-core_2.13\\9.1.0\\jwt-core_2.13-9.1.0-sources.jar"
                         }
                     ]
                 },
@@ -358,12 +358,12 @@
                     "artifacts": [
                         {
                             "name": "scala-influxdb-client_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/razem/scala-influxdb-client_2.13/0.6.3/scala-influxdb-client_2.13-0.6.3.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\razem\\scala-influxdb-client_2.13\\0.6.3\\scala-influxdb-client_2.13-0.6.3.jar"
                         },
                         {
                             "name": "scala-influxdb-client_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/razem/scala-influxdb-client_2.13/0.6.3/scala-influxdb-client_2.13-0.6.3-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\razem\\scala-influxdb-client_2.13\\0.6.3\\scala-influxdb-client_2.13-0.6.3-sources.jar"
                         }
                     ]
                 },
@@ -375,12 +375,12 @@
                     "artifacts": [
                         {
                             "name": "circe-core_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.14.1/circe-core_2.13-0.14.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-core_2.13\\0.14.1\\circe-core_2.13-0.14.1.jar"
                         },
                         {
                             "name": "circe-core_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.14.1/circe-core_2.13-0.14.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-core_2.13\\0.14.1\\circe-core_2.13-0.14.1-sources.jar"
                         }
                     ]
                 },
@@ -392,12 +392,12 @@
                     "artifacts": [
                         {
                             "name": "circe-generic_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_2.13/0.14.1/circe-generic_2.13-0.14.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-generic_2.13\\0.14.1\\circe-generic_2.13-0.14.1.jar"
                         },
                         {
                             "name": "circe-generic_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_2.13/0.14.1/circe-generic_2.13-0.14.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-generic_2.13\\0.14.1\\circe-generic_2.13-0.14.1-sources.jar"
                         }
                     ]
                 },
@@ -409,12 +409,12 @@
                     "artifacts": [
                         {
                             "name": "circe-parser_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_2.13/0.14.1/circe-parser_2.13-0.14.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-parser_2.13\\0.14.1\\circe-parser_2.13-0.14.1.jar"
                         },
                         {
                             "name": "circe-parser_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_2.13/0.14.1/circe-parser_2.13-0.14.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-parser_2.13\\0.14.1\\circe-parser_2.13-0.14.1-sources.jar"
                         }
                     ]
                 },
@@ -426,12 +426,12 @@
                     "artifacts": [
                         {
                             "name": "commons-compiler",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.1.8/commons-compiler-3.1.8.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\janino\\commons-compiler\\3.1.8\\commons-compiler-3.1.8.jar"
                         },
                         {
                             "name": "commons-compiler",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.1.8/commons-compiler-3.1.8-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\codehaus\\janino\\commons-compiler\\3.1.8\\commons-compiler-3.1.8-sources.jar"
                         }
                     ]
                 },
@@ -443,12 +443,12 @@
                     "artifacts": [
                         {
                             "name": "logback-core",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.9/logback-core-1.2.9.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-core\\1.2.9\\logback-core-1.2.9.jar"
                         },
                         {
                             "name": "logback-core",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.9/logback-core-1.2.9-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-core\\1.2.9\\logback-core-1.2.9-sources.jar"
                         }
                     ]
                 },
@@ -460,12 +460,12 @@
                     "artifacts": [
                         {
                             "name": "slf4j-api",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.32\\slf4j-api-1.7.32.jar"
                         },
                         {
                             "name": "slf4j-api",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\1.7.32\\slf4j-api-1.7.32-sources.jar"
                         }
                     ]
                 },
@@ -477,12 +477,12 @@
                     "artifacts": [
                         {
                             "name": "json4s-core_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.13/4.0.5/json4s-core_2.13-4.0.5.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-core_2.13\\4.0.5\\json4s-core_2.13-4.0.5.jar"
                         },
                         {
                             "name": "json4s-core_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.13/4.0.5/json4s-core_2.13-4.0.5-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-core_2.13\\4.0.5\\json4s-core_2.13-4.0.5-sources.jar"
                         }
                     ]
                 },
@@ -494,12 +494,12 @@
                     "artifacts": [
                         {
                             "name": "json4s-native-core_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native-core_2.13/4.0.5/json4s-native-core_2.13-4.0.5.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-native-core_2.13\\4.0.5\\json4s-native-core_2.13-4.0.5.jar"
                         },
                         {
                             "name": "json4s-native-core_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native-core_2.13/4.0.5/json4s-native-core_2.13-4.0.5-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-native-core_2.13\\4.0.5\\json4s-native-core_2.13-4.0.5-sources.jar"
                         }
                     ]
                 },
@@ -511,12 +511,12 @@
                     "artifacts": [
                         {
                             "name": "json4s-jackson-core_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-jackson-core_2.13/4.0.5/json4s-jackson-core_2.13-4.0.5.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-jackson-core_2.13\\4.0.5\\json4s-jackson-core_2.13-4.0.5.jar"
                         },
                         {
                             "name": "json4s-jackson-core_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-jackson-core_2.13/4.0.5/json4s-jackson-core_2.13-4.0.5-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-jackson-core_2.13\\4.0.5\\json4s-jackson-core_2.13-4.0.5-sources.jar"
                         }
                     ]
                 },
@@ -528,12 +528,12 @@
                     "artifacts": [
                         {
                             "name": "pureconfig-core_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-core_2.13/0.17.1/pureconfig-core_2.13-0.17.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig-core_2.13\\0.17.1\\pureconfig-core_2.13-0.17.1.jar"
                         },
                         {
                             "name": "pureconfig-core_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-core_2.13/0.17.1/pureconfig-core_2.13-0.17.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig-core_2.13\\0.17.1\\pureconfig-core_2.13-0.17.1-sources.jar"
                         }
                     ]
                 },
@@ -545,12 +545,12 @@
                     "artifacts": [
                         {
                             "name": "pureconfig-generic_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic_2.13/0.17.1/pureconfig-generic_2.13-0.17.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig-generic_2.13\\0.17.1\\pureconfig-generic_2.13-0.17.1.jar"
                         },
                         {
                             "name": "pureconfig-generic_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic_2.13/0.17.1/pureconfig-generic_2.13-0.17.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig-generic_2.13\\0.17.1\\pureconfig-generic_2.13-0.17.1-sources.jar"
                         }
                     ]
                 },
@@ -562,12 +562,12 @@
                     "artifacts": [
                         {
                             "name": "snakeyaml",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\yaml\\snakeyaml\\1.29\\snakeyaml-1.29.jar"
                         },
                         {
                             "name": "snakeyaml",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.29/snakeyaml-1.29-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\yaml\\snakeyaml\\1.29\\snakeyaml-1.29-sources.jar"
                         }
                     ]
                 },
@@ -579,12 +579,12 @@
                     "artifacts": [
                         {
                             "name": "automaton",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dk\\brics\\automaton\\automaton\\1.11-8\\automaton-1.11-8.jar"
                         },
                         {
                             "name": "automaton",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\dk\\brics\\automaton\\automaton\\1.11-8\\automaton-1.11-8-sources.jar"
                         }
                     ]
                 },
@@ -596,12 +596,12 @@
                     "artifacts": [
                         {
                             "name": "async-http-client",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client/2.10.4/async-http-client-2.10.4.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\asynchttpclient\\async-http-client\\2.10.4\\async-http-client-2.10.4.jar"
                         },
                         {
                             "name": "async-http-client",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client/2.10.4/async-http-client-2.10.4-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\asynchttpclient\\async-http-client\\2.10.4\\async-http-client-2.10.4-sources.jar"
                         }
                     ]
                 },
@@ -613,12 +613,12 @@
                     "artifacts": [
                         {
                             "name": "spray-json_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.13/1.3.5/spray-json_2.13-1.3.5.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\spray\\spray-json_2.13\\1.3.5\\spray-json_2.13-1.3.5.jar"
                         },
                         {
                             "name": "spray-json_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/spray/spray-json_2.13/1.3.5/spray-json_2.13-1.3.5-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\spray\\spray-json_2.13\\1.3.5\\spray-json_2.13-1.3.5-sources.jar"
                         }
                     ]
                 },
@@ -630,12 +630,12 @@
                     "artifacts": [
                         {
                             "name": "circe-numbers_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.14.1/circe-numbers_2.13-0.14.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-numbers_2.13\\0.14.1\\circe-numbers_2.13-0.14.1.jar"
                         },
                         {
                             "name": "circe-numbers_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.14.1/circe-numbers_2.13-0.14.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-numbers_2.13\\0.14.1\\circe-numbers_2.13-0.14.1-sources.jar"
                         }
                     ]
                 },
@@ -647,12 +647,12 @@
                     "artifacts": [
                         {
                             "name": "cats-core_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.13\\2.6.1\\cats-core_2.13-2.6.1.jar"
                         },
                         {
                             "name": "cats-core_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-core_2.13\\2.6.1\\cats-core_2.13-2.6.1-sources.jar"
                         }
                     ]
                 },
@@ -664,12 +664,12 @@
                     "artifacts": [
                         {
                             "name": "shapeless_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.7/shapeless_2.13-2.3.7.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\chuusai\\shapeless_2.13\\2.3.7\\shapeless_2.13-2.3.7.jar"
                         },
                         {
                             "name": "shapeless_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.7/shapeless_2.13-2.3.7-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\chuusai\\shapeless_2.13\\2.3.7\\shapeless_2.13-2.3.7-sources.jar"
                         }
                     ]
                 },
@@ -681,12 +681,12 @@
                     "artifacts": [
                         {
                             "name": "circe-jawn_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_2.13/0.14.1/circe-jawn_2.13-0.14.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-jawn_2.13\\0.14.1\\circe-jawn_2.13-0.14.1.jar"
                         },
                         {
                             "name": "circe-jawn_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_2.13/0.14.1/circe-jawn_2.13-0.14.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\circe\\circe-jawn_2.13\\0.14.1\\circe-jawn_2.13-0.14.1-sources.jar"
                         }
                     ]
                 },
@@ -698,12 +698,12 @@
                     "artifacts": [
                         {
                             "name": "json4s-ast_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.13/4.0.5/json4s-ast_2.13-4.0.5.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-ast_2.13\\4.0.5\\json4s-ast_2.13-4.0.5.jar"
                         },
                         {
                             "name": "json4s-ast_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-ast_2.13/4.0.5/json4s-ast_2.13-4.0.5-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-ast_2.13\\4.0.5\\json4s-ast_2.13-4.0.5-sources.jar"
                         }
                     ]
                 },
@@ -715,12 +715,12 @@
                     "artifacts": [
                         {
                             "name": "json4s-scalap_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.13/4.0.5/json4s-scalap_2.13-4.0.5.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-scalap_2.13\\4.0.5\\json4s-scalap_2.13-4.0.5.jar"
                         },
                         {
                             "name": "json4s-scalap_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.13/4.0.5/json4s-scalap_2.13-4.0.5-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\json4s\\json4s-scalap_2.13\\4.0.5\\json4s-scalap_2.13-4.0.5-sources.jar"
                         }
                     ]
                 },
@@ -732,12 +732,12 @@
                     "artifacts": [
                         {
                             "name": "paranamer",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar"
                         },
                         {
                             "name": "paranamer",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8-sources.jar"
                         }
                     ]
                 },
@@ -749,12 +749,12 @@
                     "artifacts": [
                         {
                             "name": "jackson-databind",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.6.1/jackson-databind-2.12.6.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.12.6.1\\jackson-databind-2.12.6.1.jar"
                         },
                         {
                             "name": "jackson-databind",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.6.1/jackson-databind-2.12.6.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.12.6.1\\jackson-databind-2.12.6.1-sources.jar"
                         }
                     ]
                 },
@@ -766,12 +766,12 @@
                     "artifacts": [
                         {
                             "name": "config",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.1\\config-1.4.1.jar"
                         },
                         {
                             "name": "config",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.1\\config-1.4.1-sources.jar"
                         }
                     ]
                 },
@@ -783,12 +783,12 @@
                     "artifacts": [
                         {
                             "name": "pureconfig-generic-base_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic-base_2.13/0.17.1/pureconfig-generic-base_2.13-0.17.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig-generic-base_2.13\\0.17.1\\pureconfig-generic-base_2.13-0.17.1.jar"
                         },
                         {
                             "name": "pureconfig-generic-base_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic-base_2.13/0.17.1/pureconfig-generic-base_2.13-0.17.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pureconfig\\pureconfig-generic-base_2.13\\0.17.1\\pureconfig-generic-base_2.13-0.17.1-sources.jar"
                         }
                     ]
                 },
@@ -800,12 +800,12 @@
                     "artifacts": [
                         {
                             "name": "async-http-client-netty-utils",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client-netty-utils/2.10.4/async-http-client-netty-utils-2.10.4.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\asynchttpclient\\async-http-client-netty-utils\\2.10.4\\async-http-client-netty-utils-2.10.4.jar"
                         },
                         {
                             "name": "async-http-client-netty-utils",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client-netty-utils/2.10.4/async-http-client-netty-utils-2.10.4-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\asynchttpclient\\async-http-client-netty-utils\\2.10.4\\async-http-client-netty-utils-2.10.4-sources.jar"
                         }
                     ]
                 },
@@ -817,12 +817,12 @@
                     "artifacts": [
                         {
                             "name": "reactive-streams",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.2\\reactive-streams-1.0.2.jar"
                         },
                         {
                             "name": "reactive-streams",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\reactivestreams\\reactive-streams\\1.0.2\\reactive-streams-1.0.2-sources.jar"
                         }
                     ]
                 },
@@ -834,12 +834,12 @@
                     "artifacts": [
                         {
                             "name": "netty-reactive-streams",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.3/netty-reactive-streams-2.0.3.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\netty\\netty-reactive-streams\\2.0.3\\netty-reactive-streams-2.0.3.jar"
                         },
                         {
                             "name": "netty-reactive-streams",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.3/netty-reactive-streams-2.0.3-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\netty\\netty-reactive-streams\\2.0.3\\netty-reactive-streams-2.0.3-sources.jar"
                         }
                     ]
                 },
@@ -851,12 +851,12 @@
                     "artifacts": [
                         {
                             "name": "javax.activation",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\sun\\activation\\javax.activation\\1.2.0\\javax.activation-1.2.0.jar"
                         },
                         {
                             "name": "javax.activation",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\sun\\activation\\javax.activation\\1.2.0\\javax.activation-1.2.0-sources.jar"
                         }
                     ]
                 },
@@ -868,12 +868,12 @@
                     "artifacts": [
                         {
                             "name": "cats-kernel_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.6.1/cats-kernel_2.13-2.6.1.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.13\\2.6.1\\cats-kernel_2.13-2.6.1.jar"
                         },
                         {
                             "name": "cats-kernel_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.6.1/cats-kernel_2.13-2.6.1-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\cats-kernel_2.13\\2.6.1\\cats-kernel_2.13-2.6.1-sources.jar"
                         }
                     ]
                 },
@@ -885,12 +885,12 @@
                     "artifacts": [
                         {
                             "name": "simulacrum-scalafix-annotations_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\simulacrum-scalafix-annotations_2.13\\0.5.4\\simulacrum-scalafix-annotations_2.13-0.5.4.jar"
                         },
                         {
                             "name": "simulacrum-scalafix-annotations_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\simulacrum-scalafix-annotations_2.13\\0.5.4\\simulacrum-scalafix-annotations_2.13-0.5.4-sources.jar"
                         }
                     ]
                 },
@@ -902,12 +902,12 @@
                     "artifacts": [
                         {
                             "name": "jawn-parser_2.13",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.1.2/jawn-parser_2.13-1.1.2.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\jawn-parser_2.13\\1.1.2\\jawn-parser_2.13-1.1.2.jar"
                         },
                         {
                             "name": "jawn-parser_2.13",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.1.2/jawn-parser_2.13-1.1.2-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\typelevel\\jawn-parser_2.13\\1.1.2\\jawn-parser_2.13-1.1.2-sources.jar"
                         }
                     ]
                 },
@@ -919,12 +919,12 @@
                     "artifacts": [
                         {
                             "name": "jackson-annotations",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.6/jackson-annotations-2.12.6.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.12.6\\jackson-annotations-2.12.6.jar"
                         },
                         {
                             "name": "jackson-annotations",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.6/jackson-annotations-2.12.6-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.12.6\\jackson-annotations-2.12.6-sources.jar"
                         }
                     ]
                 },
@@ -936,12 +936,12 @@
                     "artifacts": [
                         {
                             "name": "jackson-core",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.6/jackson-core-2.12.6.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.12.6\\jackson-core-2.12.6.jar"
                         },
                         {
                             "name": "jackson-core",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.6/jackson-core-2.12.6-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.12.6\\jackson-core-2.12.6-sources.jar"
                         }
                     ]
                 },
@@ -953,12 +953,12 @@
                     "artifacts": [
                         {
                             "name": "scala-library",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8.jar"
                         },
                         {
                             "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/Users/Nick/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8-sources.jar"
+                            "path": "C:\\Users\\n.kiryushchenko\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8-sources.jar"
                         }
                     ]
                 }
