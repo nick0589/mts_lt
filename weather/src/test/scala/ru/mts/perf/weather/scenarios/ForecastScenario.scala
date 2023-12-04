@@ -9,7 +9,7 @@ object ForecastScenario {
 
   val scn: ScenarioBuilder = scenario("Forecast Scenario")
   
-  //  .exec(Forecast.getForecast)
-  //  .exec(Forecast.updateForecastById)
+    .exec(Forecast.getForecast)
+    .exec(Forecast.updateForecastById)
     .exec(Forecast.postForecastById)
 }

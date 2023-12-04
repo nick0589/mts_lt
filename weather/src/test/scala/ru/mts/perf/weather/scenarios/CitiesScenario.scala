@@ -8,10 +8,11 @@ object CitiesScenario {
 
   val scn: ScenarioBuilder = scenario("Cities Scenario")
    // .randomSwitch(
-   // 90.0 -> exec(Cities.getCities),
-   // 10.0 -> exec(Cities.updateCityById)
+   // 20.0 -> exec(Cities.getCities),
+   // 75.0 -> exec(Cities.getCitiesId),
+   // 5.0 -> exec(Cities.updateCityById)
    // )
-   .exec(Cities.getCities)
+   //.exec(Cities.getCities)
    .exec(Cities.updateCityById)
 
 }
