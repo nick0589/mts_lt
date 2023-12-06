@@ -8,12 +8,9 @@ import io.gatling.core.Predef._
 
 object Cities {
 
-  //val cityId: Int = Random.nextInt (169) + 1
-
   val getCities = http("GET /Cities")
     .get("/Cities")
     .check(status is 200)
-   // .check(jsonPath("$[*].id").findRandom.saveAs("cityId"))
 
 
   val getCitiesId = http("GET /Cities/{id}")
@@ -31,5 +28,6 @@ object Cities {
     """.stripMargin))
     .asJson
     .check(status is 200)
- // cc
+ 
       }
+    
