@@ -9,18 +9,22 @@ object Forecast {
     .get("/Forecast")
     .check(status is 200)
     .check(jsonPath("$[*].id").findRandom.saveAs("forecastId"))
-  //  .check(jsonPath("$[*].cityId").findRandom.saveAs("forecastcityId"))
-  //  пытался вытащить cityId из выбранного id в таблице, но как то не получилось.
+    .check(jsonPath("$[*].cityId").findRandom.saveAs("forecastcityId"))
+
+  val getForecastById = http("GET /Forecast/{id}")
+    .get("/Forecast/#{forecastId}")
+    .check(status is 200)
+    .check(jsonPath("$[*].cityId").findRandom.saveAs("forecastcityId"))
 
   val updateForecastById = http("PUT /Forecast/{id}")
-    .put("/Forecast/706")
+    .put("/Forecast/#{forecastId}")
     .body(StringBody("""
       |{
-      | "id" : 706,
-      | "cityId": 770,
+      | "id" : #{forecastId},
+      | "cityId": #{forecastcityId},
       | "dateTime": 202311301130,
       | "temperature": 99,
-      | "summary": "okey"
+      | "summary": "test"
       |}
     """.stripMargin))
     .asJson
@@ -28,14 +32,9 @@ object Forecast {
 
 
      val postForecastById = http("POST /Forecast/{cityId}")
-    .post("/Forecast/705")
+    .post("/Forecast/#{forecastcityId}")
    .body(StringBody("""
      |{
-     | "id" : 705,
-     | "cityId": 777,
-     | "dateTime": 202311301130,
-     | "temperature": 88,
-     | "summary": "okey"
      |}
    """.stripMargin))
    .asJson
