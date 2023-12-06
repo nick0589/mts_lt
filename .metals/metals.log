@@ -955,3 +955,131 @@ WARNING: Unmatched cancel notification for request id 4035
 ��� 05, 2023 3:21:21 PM scala.meta.internal.pc.CompilerAccess handleError
 SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\GitHub\mts_lt-1\.metals\.reports\metals-full\2023-12-05\r_compiler-error_(root-test)_15-21-21-545.md
 2023.12.05 15:21:21 WARN  Could not find semantic tokens for: file:///C:/GitHub/mts_lt-1/weather/src/test/scala/ru/mts/perf/weather/scenarios/ForecastScenario.scala
+2023.12.06 22:09:19 INFO  Started: Metals version 1.1.0 in folders '/Users/Nick/Git/mts_lt-1' for client Visual Studio Code 1.84.2.
+2023.12.06 22:09:23 INFO  Attempting to connect to the build server...
+2023.12.06 22:09:23 INFO  Bloop uses /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home defined at /Users/Nick/.bloop/bloop.json
+2023.12.06 22:09:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nick/Git/mts_lt-1/.metals/bsp.trace.json or /Users/Nick/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.8\scala-compiler-2.13.8.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.8\scala-compiler-2.13.8.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.21.0\jline-3.21.0.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.21.0\jline-3.21.0.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.8\scala-compiler-2.13.8.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.8\scala-reflect-2.13.8.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.21.0\jline-3.21.0.jar doesn't exist!
+2023.12.06 22:09:24 WARN  Scala instance jar /Users/Nick/Documents/tests/mts/C:\Users\n.kiryushchenko\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.9.0\jna-5.9.0.jar doesn't exist!
+2023.12.06 22:09:24 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:586)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:481)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.eclipse.lsp4j.jsonrpc.MessageIssueException: Message could not be parsed.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponseIssues(RemoteEndpoint.java:358)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handle(RemoteEndpoint.java:317)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023.12.06 22:09:24 WARN  no build target for: /Users/Nick/Git/mts_lt-1/weather/src/test/scala/ru/mts/perf/weather/scenarios/ForecastScenario.scala
+2023.12.06 22:09:25 INFO  no build target found for /Users/Nick/Git/mts_lt-1/weather/src/test/scala/ru/mts/perf/weather/scenarios/ForecastScenario.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.06 22:09:27 INFO  time: code lens generation in 3.7s
+2023.12.06 22:09:42 INFO  running '/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/mr/htp1cp256l9_4ngz9ylmp3sr0000gp/T/metals1851028819837355520/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.06 22:09:44 INFO  [info] welcome to sbt 1.7.1 (Oracle Corporation Java 1.8.0_391)
+2023.12.06 22:09:46 INFO  [info] loading settings for project weather-build-build-build from metals.sbt ...
+2023.12.06 22:09:46 INFO  [info] loading project definition from /Users/Nick/Git/mts_lt-1/weather/project/project/project
+2023.12.06 22:09:49 INFO  [info] loading settings for project weather-build-build from metals.sbt ...
+2023.12.06 22:09:49 INFO  [info] loading project definition from /Users/Nick/Git/mts_lt-1/weather/project/project
+2023.12.06 22:09:51 INFO  [success] Generated .bloop/weather-build-build.json
+2023.12.06 22:09:51 INFO  [success] Total time: 2 s, completed 06.12.2023 22:09:51
+2023.12.06 22:09:52 INFO  [info] loading settings for project weather-build from metals.sbt,plugins.sbt ...
+2023.12.06 22:09:52 INFO  [info] loading project definition from /Users/Nick/Git/mts_lt-1/weather/project
+2023.12.06 22:09:53 INFO  [success] Generated .bloop/weather-build.json
+2023.12.06 22:09:53 INFO  [info] compiling 1 Scala source to /Users/Nick/Git/mts_lt-1/weather/project/target/scala-2.12/sbt-1.0/classes ...
+2023.12.06 22:09:57 INFO  [info] done compiling
+2023.12.06 22:09:57 INFO  [success] Total time: 5 s, completed 06.12.2023 22:09:57
+2023.12.06 22:09:58 INFO  [info] loading settings for project root from build.sbt ...
+2023.12.06 22:09:58 INFO  [info] set current project to weather (in build file:/Users/Nick/Git/mts_lt-1/weather/)
+2023.12.06 22:10:00 INFO  [success] Generated .bloop/root.json
+2023.12.06 22:10:00 INFO  [success] Generated .bloop/root-it.json
+2023.12.06 22:10:00 INFO  [success] Generated .bloop/root-test.json
+2023.12.06 22:10:00 INFO  [success] Total time: 1 s, completed 06.12.2023 22:10:00
+2023.12.06 22:10:00 INFO  time: ran 'sbt bloopInstall' in 18s
+2023.12.06 22:10:00 INFO  Attempting to connect to the build server...
+2023.12.06 22:10:00 INFO  Bloop uses /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home defined at /Users/Nick/.bloop/bloop.json
+2023.12.06 22:10:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nick/Git/mts_lt-1/.metals/bsp.trace.json or /Users/Nick/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.06 22:10:02 INFO  time: Connected to build server in 1.66s
+2023.12.06 22:10:02 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.06 22:10:02 INFO  time: Imported build in 0.12s
+2023.12.06 22:10:03 WARN  Could not find java sources in /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip. Java symbols will not be available.
+2023.12.06 22:10:03 WARN  Could not find java sources in /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip. Java symbols will not be available.
+2023.12.06 22:10:03 WARN  Could not find java sources in /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip. Java symbols will not be available.
+2023.12.06 22:10:03 INFO  time: indexed workspace in 1.75s
+2023.12.06 22:10:04 INFO  compiling root-test (11 scala sources)
+2023.12.06 22:10:07 INFO  time: compiled root-test in 3.63s
+2023.12.06 22:21:47 INFO  compiling root-test (1 scala source)
+2023.12.06 22:21:49 INFO  time: compiled root-test in 2.32s
+2023.12.06 22:21:55 INFO  compiling root-test (1 scala source)
+2023.12.06 22:21:56 INFO  time: compiled root-test in 1.31s
+дек 06, 2023 10:22:44 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.12.06 22:28:54 INFO  compiling root-test (1 scala source)
+2023.12.06 22:28:56 INFO  time: compiled root-test in 2.01s
+2023.12.06 22:29:10 INFO  compiling root-test (1 scala source)
+2023.12.06 22:29:10 INFO  time: compiled root-test in 0.46s
+2023.12.06 22:29:16 INFO  compiling root-test (1 scala source)
+2023.12.06 22:29:17 INFO  time: compiled root-test in 1.24s
+дек 06, 2023 10:38:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/Nick/Git/mts_lt-1/.metals/.reports/metals-full/2023-12-06/r_compiler-error_(root-test)_22-38-11-171.md
+2023.12.06 22:38:11 WARN  Could not find semantic tokens for: file:///Users/Nick/Git/mts_lt-1/weather/src/test/scala/ru/mts/perf/weather/Stability.scala
+дек 06, 2023 10:38:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.UnsupportedOperationException: tail of empty list
+java.util.concurrent.CompletionException: java.lang.UnsupportedOperationException: tail of empty list
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.UnsupportedOperationException: tail of empty list
+	at scala.collection.immutable.Nil$.tail(List.scala:664)
+	at scala.collection.immutable.Nil$.tail(List.scala:661)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$endPosOfTree$1(CreateCompanionObjectCodeAction.scala:77)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.endPosOfTree(CreateCompanionObjectCodeAction.scala:75)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$5(CreateCompanionObjectCodeAction.scala:61)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$4(CreateCompanionObjectCodeAction.scala:58)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$2(CreateCompanionObjectCodeAction.scala:56)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.CreateCompanionObjectCodeAction.$anonfun$contribute$1(CreateCompanionObjectCodeAction.scala:55)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.12.06 22:38:31 INFO  compiling root-test (1 scala source)
+2023.12.06 22:38:33 INFO  time: compiled root-test in 2.19s
+дек 06, 2023 10:50:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
