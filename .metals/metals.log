@@ -1134,3 +1134,93 @@ INFO: compiler crashed due to an error in the Scala compiler, retrying with new 
 WARNING: Unmatched cancel notification for request id 502
 дек 11, 2023 9:23:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2023.12.11 21:24:05 INFO  Shutting down server
+2023.12.11 21:24:05 INFO  shutting down Metals
+2023.12.11 21:24:05 INFO  Shut down connection with build server.
+2023.12.11 21:24:05 INFO  Exiting server
+2023.12.11 21:41:52 INFO  Started: Metals version 1.1.0 in folders '/Users/Nick/Git/mts_lt-1' for client Visual Studio Code 1.84.2.
+2023.12.11 21:41:53 INFO  Attempting to connect to the build server...
+2023.12.11 21:41:53 INFO  skipping build import with status 'Installed'
+2023.12.11 21:41:53 INFO  Bloop uses /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home defined at /Users/Nick/.bloop/bloop.json
+2023.12.11 21:41:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nick/Git/mts_lt-1/.metals/bsp.trace.json or /Users/Nick/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.11 21:41:54 INFO  time: Connected to build server in 1.28s
+2023.12.11 21:41:54 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.11 21:41:57 INFO  no build target found for /Users/Nick/Git/mts_lt-1/weather/src/test/scala/ru/mts/perf/weather/Stability.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.11 21:41:58 INFO  time: Imported build in 0.17s
+2023.12.11 21:42:01 WARN  Could not find java sources in /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip. Java symbols will not be available.
+2023.12.11 21:42:02 WARN  Could not find java sources in /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip. Java symbols will not be available.
+2023.12.11 21:42:02 WARN  Could not find java sources in /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip. Java symbols will not be available.
+2023.12.11 21:42:02 INFO  time: indexed workspace in 4s
+дек 11, 2023 9:42:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Exception in thread "pool-4-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.12.11 22:18:01 INFO  Shutting down server
+2023.12.11 22:18:01 INFO  shutting down Metals
+2023.12.11 22:18:01 INFO  Shut down connection with build server.
+2023.12.11 22:18:01 INFO  Exiting server
+2023.12.13 21:39:52 INFO  Started: Metals version 1.1.0 in folders '/Users/Nick/Git/mts_lt-1' for client Visual Studio Code 1.85.0.
+2023.12.13 21:39:54 INFO  Attempting to connect to the build server...
+2023.12.13 21:39:54 INFO  Bloop uses /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home defined at /Users/Nick/.bloop/bloop.json
+2023.12.13 21:39:54 INFO  skipping build import with status 'Installed'
+2023.12.13 21:39:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nick/Git/mts_lt-1/.metals/bsp.trace.json or /Users/Nick/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.13 21:39:55 INFO  time: Connected to build server in 1.82s
+2023.12.13 21:39:55 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.13 21:39:59 INFO  no build target found for /Users/Nick/Git/mts_lt-1/weather/src/test/scala/ru/mts/perf/weather/GatlingRunner.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.13 21:40:00 INFO  time: Imported build in 0.33s
+2023.12.13 21:40:00 INFO  no build target found for /Users/Nick/Git/mts_lt-1/weather/src/test/scala/ru/mts/perf/weather/Stability.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.13 21:40:01 INFO  no build target found for /Users/Nick/Git/mts_lt-1/weather/src/test/scala/ru/mts/perf/weather/Stability.scala. Using presentation compiler with project's scala-library version: 2.13.8
+2023.12.13 21:40:02 WARN  Could not find java sources in /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip. Java symbols will not be available.
+2023.12.13 21:40:02 WARN  Could not find java sources in /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip. Java symbols will not be available.
+2023.12.13 21:40:02 WARN  Could not find java sources in /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip. Java symbols will not be available.
+2023.12.13 21:40:02 INFO  time: indexed workspace in 2.5s
+2023.12.13 21:40:30 INFO  compiling root-test (1 scala source)
+2023.12.13 21:40:35 INFO  time: compiled root-test in 4.52s
+2023.12.13 21:40:36 INFO  compiling root-test (1 scala source)
+2023.12.13 21:40:37 INFO  time: compiled root-test in 1.09s
+дек 13, 2023 9:40:40 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+дек 13, 2023 9:40:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.12.13 21:41:34 INFO  compiling root-test (1 scala source)
+2023.12.13 21:41:36 INFO  time: compiled root-test in 2.01s
+дек 13, 2023 9:44:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/Nick/Git/mts_lt-1/.metals/.reports/metals-full/2023-12-13/r_compiler-error_(root-test)_21-44-06-800.md
+2023.12.13 21:44:06 WARN  Could not find semantic tokens for: file:///Users/Nick/Git/mts_lt-1/weather/src/test/scala/ru/mts/perf/weather/Stability.scala
+дек 13, 2023 9:44:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/Nick/Git/mts_lt-1/.metals/.reports/metals-full/2023-12-13/r_compiler-error_(root-test)_21-44-09-181.md
+2023.12.13 21:44:09 WARN  Could not find semantic tokens for: file:///Users/Nick/Git/mts_lt-1/weather/src/test/scala/ru/mts/perf/weather/Stability.scala
+2023.12.13 22:22:56 INFO  Shutting down server
+2023.12.13 22:22:56 INFO  shutting down Metals
+2023.12.13 22:22:57 INFO  Shut down connection with build server.
+2023.12.13 22:22:56 INFO  Exiting server
+2023.12.28 13:51:20 INFO  Started: Metals version 1.2.0 in folders '/Users/Nick/Git/mts_lt-1' for client Visual Studio Code 1.85.1.
+2023.12.28 13:51:23 INFO  Attempting to connect to the build server...
+2023.12.28 13:51:23 INFO  Bloop uses /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home defined at /Users/Nick/.bloop/bloop.json
+2023.12.28 13:51:23 INFO  skipping build import with status 'Installed'
+дек 28, 2023 1:51:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.12.28 13:51:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/Nick/Git/mts_lt-1/.metals/bsp.trace.json or /Users/Nick/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.12.28 13:51:49 INFO  time: Connected to build server in 26s
+2023.12.28 13:51:49 INFO  Connected to Build server: Bloop v1.5.13
+2023.12.28 13:51:49 INFO  time: Imported build in 0.39s
+2023.12.28 13:52:00 WARN  Could not find java sources in /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip. Java symbols will not be available.
+2023.12.28 13:52:00 WARN  Could not find java sources in /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip. Java symbols will not be available.
+2023.12.28 13:52:00 WARN  Could not find java sources in /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/lib/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/src.zip, /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/src.zip. Java symbols will not be available.
+2023.12.28 13:52:00 INFO  time: indexed workspace in 10s
+2023.12.28 13:54:25 INFO  compiling root-test (11 scala sources)
+2023.12.28 13:54:25 INFO  Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.8. Compiling...
+дек 28, 2023 1:54:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.12.28 13:54:32 INFO  Deduplicating compilation of root-test from bsp client 'Metals 1.2.0' (since 2m 46.528s)
+2023.12.28 13:54:32 INFO  compiling root-test (11 scala sources)
+2023.12.28 13:54:38 INFO    Compilation completed in 12.359s.
+2023.12.28 13:54:46 INFO  time: compiled root-test in 13s

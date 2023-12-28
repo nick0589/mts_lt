@@ -1,3 +1,12 @@
+file://<WORKSPACE>/weather/src/test/scala/ru/mts/perf/weather/Stability.scala
+### scala.reflect.internal.Types$TypeError: illegal cyclic reference involving object Predef
+
+occurred in the presentation compiler.
+
+action parameters:
+uri: file://<WORKSPACE>/weather/src/test/scala/ru/mts/perf/weather/Stability.scala
+text:
+```scala
 package ru.mts.perf.mts
 
 import io.gatling.core.Predef._
@@ -26,3 +35,16 @@ class Stability extends Simulation with Annotations {
   ).maxDuration(10 minutes)
 
 }
+
+```
+
+
+
+#### Error stacktrace:
+
+```
+
+```
+#### Short summary: 
+
+scala.reflect.internal.Types$TypeError: illegal cyclic reference involving object Predef
